@@ -17,15 +17,16 @@ USER_LIMIT_TIME = int(os.environ.get("USER_LIMIT_TIME", "1"))#enter time based o
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", " ")
-    API_HASH  = os.environ.get("API_HASH", "")
+    API_ID    = os.environ.get("API_ID", "34822566")
+    API_HASH  = os.environ.get("API_HASH", "3ab7815d50c6baec0e564742eee75b33
+")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
 
     # database config
     DB_NAME = os.environ.get("DB_NAME","")     
     DB_URL  = os.environ.get("DB_URL","")
     PORT = os.environ.get("PORT", "8050")
-    OWNER = int(os.environ.get("OWNER", ""))
+    OWNER = int(os.environ.get("OWNER", "7560349494"))
     PRIVATE_USE = False #If Bot is private use set True otherwise False
  
     # other configs
@@ -86,7 +87,7 @@ class Txt(object):
 </blockquote>"""
 
     PROGRESS_BAR = """\n<blockquote>
- <b>🔗 Size :</b> {1} | {2}
+ <b>🔗 Size :</b> {1} | {3}
 ️ <b>⏳️ Done :</b> {0}%
  <b>🚀 Speed :</b> {3}/s
 ️ <b>⏰️ ETA :</b> {4}
