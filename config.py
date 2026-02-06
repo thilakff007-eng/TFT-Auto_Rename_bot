@@ -18,22 +18,21 @@ USER_LIMIT_TIME = int(os.environ.get("USER_LIMIT_TIME", "1"))#enter time based o
 class Config(object):
     # pyro client config
     API_ID    = os.environ.get("API_ID", " 34822566")
-    API_HASH  = os.environ.get("API_HASH", "3ab7815d50c6baec0e564742eee75b33
-")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8302771711:AAHCfheaB0eK58SgIHxmrjCLkf9Ieh9GcxI") 
+    API_HASH  = os.environ.get("API_HASH", "3ab7815d50c6baec0e564742eee75b33")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", " ") 
 
     # database config
-    DB_NAME = os.environ.get("DB_NAME","")     
+    DB_NAME = os.environ.get("DB_NAME","Speedwolf1")     
     DB_URL  = os.environ.get("DB_URL","")
     PORT = os.environ.get("PORT", "8050")
-    OWNER = int(os.environ.get("OWNER", ""))
+    OWNER = int(os.environ.get("OWNER", "8302771711"))
     PRIVATE_USE = False #If Bot is private use set True otherwise False
  
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://files.catbox.moe/ufzpkn.jpg")
     
-    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', "tech_freak_tamil").split(',')
+    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', " ").split(',')
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "" ))
     DUMB_CHANNEL = os.environ.get("DUMB_CHANNEL", "")
     
