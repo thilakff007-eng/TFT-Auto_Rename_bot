@@ -17,22 +17,23 @@ USER_LIMIT_TIME = int(os.environ.get("USER_LIMIT_TIME", "1"))#enter time based o
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", " ")
-    API_HASH  = os.environ.get("API_HASH", "")
+    API_ID    = os.environ.get("API_ID", " 34822566")
+    API_HASH  = os.environ.get("API_HASH", "3ab7815d50c6baec0e564742eee75b33
+") 
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
 
     # database config
     DB_NAME = os.environ.get("DB_NAME","")     
     DB_URL  = os.environ.get("DB_URL","")
     PORT = os.environ.get("PORT", "8050")
-    OWNER = int(os.environ.get("OWNER", ""))
+    OWNER = int(os.environ.get("OWNER", "7560349494"))
     PRIVATE_USE = False #If Bot is private use set True otherwise False
  
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://files.catbox.moe/ufzpkn.jpg")
     
-    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', "tech_freak_tamil").split(',')
+    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', " ").split(',')
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "" ))
     DUMB_CHANNEL = os.environ.get("DUMB_CHANNEL", "")
     
@@ -53,14 +54,14 @@ class Txt(object):
 
 ➻ This Bot is only for Admin use other can use with low limitation </blockquote>
 
-<blockquote><b>Bot Is Made By :</b> @Tech_Freak_Tamil</blockquote>"""
+<blockquote><b>Bot Is Made By :</b> @</blockquote>"""
 
     ABOUT_TXT = f"""<blockquote><b>😈 My Name :</b> <a href='https://t.me/Tech_Freak_Tamil'>Auto Renamer bot ⚡</a>
 <b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
 <b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
 <b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
 <b>📢 Channel :</b> <a href='https://t.me/Tech_Freak_Tamil'>TFT BOTS</a>
-<b>🛡️ Disscussion :</b> <a href='https://t.me/+ov2l_dY_8jA3MGVl'>TFT Discussion</a></blockquote>
+<b>🛡️ Disscussion :</b> <a href='https://t.me/+ov2l_dY_8jA3MGVl'>TFT Discussion</a>@Thilakff</blockquote>
     
 <blockquote><b>😈 Bot Made By :</b> <a href='https://t.me/+ov2l_dY_8jA3MGVl'>TFT Discussion</a></blockquote>"""
 
@@ -86,7 +87,7 @@ class Txt(object):
 </blockquote>"""
 
     PROGRESS_BAR = """\n<blockquote>
- <b>🔗 Size :</b> {1} | {2}
+ <b>🔗 Size :</b> {1} | {2} | {3} | {4}
 ️ <b>⏳️ Done :</b> {0}%
  <b>🚀 Speed :</b> {3}/s
 ️ <b>⏰️ ETA :</b> {4}
@@ -105,15 +106,15 @@ If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upt
 
 For Example :-
 
-<code>By :- @Tech_Freak_Tamil</code>
+<code>By :- @Thilakff</code>
 
-💬 For Any Help Contact @Tech_Freak_Tamil
+💬 For Any Help Contact @Thilakff
 </blockquote>"""
 
 
 # Tech freak 
 # Don't Remove Credit!!!
-# Telegram Channel @Tech_freak_tamil
+# Telegram Channel @Thilakff
 # Developer @devilo7
 
 
